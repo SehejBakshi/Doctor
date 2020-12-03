@@ -278,8 +278,6 @@ python-slugify==4.0.0
 python-socketio==4.6.1
 python-telegram-bot==12.8
 python3-openid==3.1.0
-pytz==2019.2
-pywin32==227
 pywinpty==0.5.7
 PyYAML==5.1.2
 pyzmq==18.1.1
