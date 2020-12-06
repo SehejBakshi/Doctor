@@ -66,11 +66,10 @@ def predict(request):
             5: 'Melanoma',
             6: 'Vascular lessions'
         }
-        path = 'doctors/' + file_name
+        path = 'doctors/cancer_images/' + file_name
         context = {
         "detected": cancers[index],
         "percentage": math.trunc(result[0][index]*100),
-        "address": "Hyderabad, India",
         'images': path
     }
         return render(request, 'doctors/predict_res.html',context)

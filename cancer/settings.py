@@ -28,7 +28,8 @@ SECRET_KEY = '+y!^9ee!yls(6nus3o18&=xgt1#_i^v+5tdx_#*7!&u7^bia2&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['warm-falls-61250.herokuapp.com']
+ALLOWED_HOSTS = ['warm-falls-61250.herokuapp.com',
+                 '127.0.0.1']
 
 
 # Application definition
